@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(../img/background.jpg);
+}
+body{
+    height: 100vh;
+    width: 98vw;
+    overflow-x: scroll;
+
+}
+header{
+    margin-top: 10px;
+    height: 6vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2{
+    font-family: Josefin Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #062D3E;
+    margin-left: 120px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.element{
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    transition: text-decoration 2s;
+}
+.element a{
+    text-decoration: none;
+    color: black;
+}
+.element a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .5s;
+}
+#signup{
+    width: Hug (140px);
+    height: Hug (62px);
+    padding: 8px 28px 8px 28px;
+    margin-bottom: 10px;
+    border-radius: 190px;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.09em;
+    text-align: left;   
+    gap: 10px;
+    color: #FFFF;
+    border: 2px solid #FFFF;
+    background: transparent;
+}
+
+#signup:hover{
+    cursor: pointer;
+}
+main{
+    margin: 80px;
+}
+.home span{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #189CAB;
+
+
+}
