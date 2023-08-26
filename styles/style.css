@@ -78,9 +78,14 @@ ul{
 #signup:hover{
     cursor: pointer;
 }
-main{
-    margin: 80px;
+.first{
+    display: flex;
+    width: 98vw;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
 }
+
 .home span{
     font-family: 'PP Neue Montreal', sans-serif;
     font-size: 20px;
@@ -90,5 +95,106 @@ main{
     text-align: left;
     color: #189CAB;
 
+}
+.home h1{
+    color: 
+    #062D3E;
+    font-family: Josefin Sans;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 92px;
+    letter-spacing: 0.5px;
+    margin-top: 60px;
+    max-width: 34pc;
+    text-transform: uppercase;
+    text-align: left;
+}
+.title{
+    color: 
+    #ED5C01;
+    font-family: Josefin Sans;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 92px;
+    letter-spacing: 0.5px;
+    max-width: 34pc;
+    text-transform: uppercase;
+    text-align: left;
+}
+.home button{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    font-family: 'PP Neue Montreal';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 38px;
+    padding: 8px 28px 8px 28px;
+    letter-spacing: 0.09em;
+    border-radius: 247px;
+    color: #FCEFE2;
+    background-color: #ED5C01;
+}
 
+.home button:hover{
+    cursor: pointer;
+}
+.image .dog{
+    width:400px;
+    margin-left: 20px;
+}
+.dog-bars{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    padding: 20px 0px;
+    background-color: #ED5C01;
+}
+#frame{
+    width: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+}
+
+#card{
+    width: 170px;
+    margin-left: 50px;
+}
+.images{
+    margin-left: 200px;
+    display: flex;
+    justify-content: left;
+}
+.images img{
+    transition: all .6s ease-in-out ;
+    right: 30px;
+    width: 160px;
+    opacity: .7s;
+}
+.images #dog{
+    position: relative;
+    right: 60px;
+}
+.images img:hover{
+    opacity: 1;
+    transform: scale(120%);
+}
+#leo{
+    position: relative;
+    right: 120px;
+}
+#pajaro{
+    position: relative;
+    right: 180px;
+}
+#leon{
+    position: relative;
+    right: 240px;
+}
+#loro{
+    position: relative;
+    right: 300px;
 }
